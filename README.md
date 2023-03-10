@@ -6,6 +6,9 @@ Wiring<br>
 LED with 1 K resistor between pin A0 and ground.<br>
 10 K potentiometer with outside connections connected to 3V and GND on the Blue Pill. The center tap of the potentiometer goes to pin A1.<br>
 <br>
+Action<br>
+The ADC will read the value from the potentiometer and control the PWM duty cycle of the LED. In other words, the potentiometer can be used to dim or brighten the LED.<br>
+<br>
 Requires the following for your OS, and the Path variable must be set to point to these binaries:<br>
 The makefile will have to be edited as follows: Make sure the FLASHER path variable to the STM32_Programmer_CLI.exe file points to the program in your system, or that the program bin folder is included in your default path. Also, the FLASHPORT variable will have to be updated to to point to the COM port of the attached programmer.
 Requires:<br>

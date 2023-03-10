@@ -5,7 +5,7 @@
 # Mike Shegedin, 2023
 ################################################################################
 
-TARGET    = CMSIS-PWM-Blinky
+TARGET    = CMSIS-Simple-ADC
 SOURCE    = main
 STARTUP   = startup_stm32f103c8tx
 FLASHER   = "c:\Program Files\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin\STM32_Programmer_CLI.exe"
