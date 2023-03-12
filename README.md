@@ -1,6 +1,6 @@
 # STM32F103xx-Simple-ADC
 
-This project contains the bare minimum code required to git a working ADC example.<br>
+This project contains the bare minimum code required to get a working ADC example.<br>
 <br>
 Wiring<br>
 LED with 1 K resistor between pin A0 and ground.<br>
